@@ -67,7 +67,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:schreiman.h@northeastern.edu"
                 className="flex items-center space-x-4 text-gray-700 hover:text-gray-900 transition-colors group"
               >
                 <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-slate-200 transition-colors">
@@ -75,12 +75,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-gray-600">your.email@example.com</p>
+                  <p className="text-gray-600">schreiman.h@northeastern.edu</p>
                 </div>
               </a>
 
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/harrison-s-aa1a95275/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 text-gray-700 hover:text-gray-900 transition-colors group"
@@ -94,20 +94,15 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a
-                href="https://github.com/yourusername"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-4 text-gray-700 hover:text-gray-900 transition-colors group"
-              >
-                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-slate-200 transition-colors">
+              <div className="flex items-center space-x-4 text-gray-700">
+                <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
                   <Github size={24} />
                 </div>
                 <div>
-                  <p className="font-medium">GitHub</p>
-                  <p className="text-gray-600">Check out my projects</p>
+                  <p className="font-medium">Location</p>
+                  <p className="text-gray-600">Boston, MA</p>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
 

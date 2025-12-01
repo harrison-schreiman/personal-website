@@ -20,7 +20,7 @@ export default function Navigation() {
             onClick={() => scrollToSection('home')}
             className="text-xl font-semibold text-gray-800 hover:text-gray-600 transition-colors"
           >
-            Your Name
+            Harrison Schreiman
           </button>
 
           <div className="hidden md:flex space-x-8">
@@ -35,6 +35,12 @@ export default function Navigation() {
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               Professional
+            </button>
+            <button
+              onClick={() => scrollToSection('volunteering')}
+              className="text-gray-700 hover:text-gray-900 transition-colors"
+            >
+              Volunteering
             </button>
             <button
               onClick={() => scrollToSection('travel')}
@@ -73,6 +79,12 @@ export default function Navigation() {
               className="block w-full text-left text-gray-700 hover:text-gray-900 transition-colors"
             >
               Professional
+            </button>
+            <button
+              onClick={() => scrollToSection('volunteering')}
+              className="block w-full text-left text-gray-700 hover:text-gray-900 transition-colors"
+            >
+              Volunteering
             </button>
             <button
               onClick={() => scrollToSection('travel')}

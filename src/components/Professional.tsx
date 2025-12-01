@@ -31,32 +31,46 @@ function AccomplishmentCard({ icon, title, subtitle, description, date }: Accomp
 export default function Professional() {
   const accomplishments = [
     {
-      icon: <Briefcase size={24} />,
-      title: 'Senior Software Engineer',
-      subtitle: 'Tech Company Inc.',
-      description: 'Led development of scalable applications serving millions of users. Mentored junior developers and drove technical excellence across teams.',
-      date: '2020 - Present'
+      icon: <GraduationCap size={24} />,
+      title: 'Honors Candidate in International Business',
+      subtitle: 'Northeastern University | D\'Amore McKim School of Business',
+      description: 'Pursuing a Bachelor of Science with concentration in Management at Boston\'s premier business school. Dean\'s List honors with 3.95/4.00 GPA.',
+      date: 'Aug 2024 - May 2027'
     },
     {
-      icon: <Award size={24} />,
-      title: 'Industry Recognition Award',
-      subtitle: 'Professional Association',
-      description: 'Recognized for outstanding contributions to the field and innovative solutions to complex problems.',
-      date: '2022'
+      icon: <Briefcase size={24} />,
+      title: 'Founder & President',
+      subtitle: 'Aspera Consulting',
+      description: 'Founded a strategic consulting organization providing problem-solving solutions for nonprofits. Managing executive board of 4 departments and coordinating member expansion and development initiatives.',
+      date: 'Oct 2024 - Present'
     },
     {
       icon: <Code size={24} />,
-      title: 'Open Source Contributor',
-      subtitle: 'Various Projects',
-      description: 'Active contributor to major open source projects with over 1000 commits and multiple published packages.',
-      date: '2018 - Present'
+      title: 'Junior Consultant & Tech Consultant',
+      subtitle: 'TAMID Group | Consulting',
+      description: 'Supporting Mobilicom\'s U.S. expansion through go-to-market strategies focused on cybersecurity and drone sectors. Conduct market analysis and competitive positioning for international clients. Also serve on Recruitment and Education Committees.',
+      date: 'Sep 2024 - Present'
     },
     {
-      icon: <GraduationCap size={24} />,
-      title: 'Master of Computer Science',
-      subtitle: 'University Name',
-      description: 'Specialized in distributed systems and artificial intelligence. Graduated with honors.',
-      date: '2018'
+      icon: <Award size={24} />,
+      title: 'Go-to-Market Strategy Project Lead',
+      subtitle: 'Mobilicom | TAMID at Northeastern',
+      description: 'Delivered comprehensive go-to-market strategy for Mobilicom\'s 8" Ground Control Station. Conducted competitive brand analysis, evaluated digital footprint, and developed targeted marketing proposals for military and commercial verticals.',
+      date: 'Jan 2025 - May 2025'
+    },
+    {
+      icon: <Briefcase size={24} />,
+      title: 'Business Development Consultant',
+      subtitle: 'Inversiones Torres | Global Brigades Panama',
+      description: 'Collaborated with Venezuelan automotive restoration business in Panama on business formalization and growth strategy. Streamlined operations, guided registration, and developed marketing approaches for vehicle sales.',
+      date: 'Sep 2025 - Present'
+    },
+    {
+      icon: <Briefcase size={24} />,
+      title: 'Analytics Intern',
+      subtitle: 'Eagle Industrial Group',
+      description: 'Created statistical analyses and data visualizations tracking shipping rates, profit margins, and product costs. Collaborated with influencers to expand SafeRack brand identity and researched competitors for product innovation.',
+      date: 'Aug 2023 - Dec 2023'
     }
   ];
 
