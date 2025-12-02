@@ -12,9 +12,11 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-stone-100">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
-          <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-200 to-emerald-200 flex items-center justify-center text-6xl">
-            ✈️
-          </div>
+          <img
+            src="/IMG_0348-min.JPG"
+            alt="Harrison Schreiman"
+            className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-6 rounded-full object-cover shadow-lg border-4 border-white"
+          />
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
@@ -30,9 +32,9 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center gap-4 mb-12 text-sm text-gray-600">
-          <span className="px-3 py-1 bg-white rounded-full">14 countries visited</span>
-          <span className="px-3 py-1 bg-white rounded-full">Fluent in 3 languages</span>
-          <span className="px-3 py-1 bg-white rounded-full">3.95 GPA</span>
+          <span className="px-3 py-1 bg-white rounded-full">16 countries visited</span>
+          <span className="px-3 py-1 bg-white rounded-full">English, Japanese, ASL</span>
+          <span className="px-3 py-1 bg-white rounded-full">3.76 GPA</span>
         </div>
 
         <button

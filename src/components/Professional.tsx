@@ -1,4 +1,4 @@
-import { Briefcase, Award, GraduationCap, Code } from 'lucide-react';
+import { Briefcase, Award, GraduationCap, Code, Users } from 'lucide-react';
 
 interface AccomplishmentCardProps {
   icon: React.ReactNode;
@@ -34,8 +34,29 @@ export default function Professional() {
       icon: <GraduationCap size={24} />,
       title: 'Honors Candidate in International Business',
       subtitle: 'Northeastern University | D\'Amore McKim School of Business',
-      description: 'Pursuing a Bachelor of Science with concentration in Management at Boston\'s premier business school. Dean\'s List honors with 3.95/4.00 GPA.',
+      description: 'Pursuing a Bachelor of Science with concentration in Management at Boston\'s premier business school. Dean\'s List honors with 3.76/4.00 GPA.',
       date: 'Aug 2024 - May 2027'
+    },
+    {
+      icon: <Users size={24} />,
+      title: 'Honors College Teaching and Programming Assistant',
+      subtitle: 'John Martinson Honors College | Boston, MA',
+      description: 'Supervise Honors Discovery Studio sessions by supporting dynamic class discussions and organizing community engagement events. Mentor 28 Internal Admit students on academic transition, leadership development, and provide bi-weekly check-ins to support their success.',
+      date: 'Aug 2025 - Present'
+    },
+    {
+      icon: <Briefcase size={24} />,
+      title: 'Fitness Consultant',
+      subtitle: 'Northeastern University | Boston, MA',
+      description: 'Partner with university fitness and wellness teams to enhance member experience and promote health initiatives. Provide personalized guidance on fitness programs, wellness resources, and community engagement opportunities to support student and staff health goals.',
+      date: 'Sep 2024 - Present'
+    },
+    {
+      icon: <Briefcase size={24} />,
+      title: 'Executive Assistant',
+      subtitle: 'Family Property Management | Hacienda Heights, CA',
+      description: 'Oversee portfolio of 6 properties worth $2.5 Million, ensuring profitability while managing risk and tenant relations. Delegate maintenance tasks with a team of 4 employees to upkeep properties at their highest value and market standards.',
+      date: 'Mar 2023 - Present'
     },
     {
       icon: <Briefcase size={24} />,

@@ -7,30 +7,36 @@ interface VolunteeringCardProps {
   description: string;
   date: string;
   highlights: string[];
+  image?: string;
 }
 
-function VolunteeringCard({ icon, title, organization, description, date, highlights }: VolunteeringCardProps) {
+function VolunteeringCard({ icon, title, organization, description, date, highlights, image }: VolunteeringCardProps) {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-      <div className="flex items-start space-x-4">
-        <div className="flex-shrink-0 w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center text-rose-600">
-          {icon}
-        </div>
-        <div className="flex-1">
-          <div className="flex items-start justify-between mb-2">
-            <div>
-              <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-              <p className="text-gray-700 font-medium">{organization}</p>
-            </div>
-            <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{date}</span>
+    <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden">
+      {image && (
+        <img src={image} alt={title} className="w-full h-48 object-cover" />
+      )}
+      <div className="p-6">
+        <div className="flex items-start space-x-4">
+          <div className="flex-shrink-0 w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center text-rose-600">
+            {icon}
           </div>
-          <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
-          <div className="flex flex-wrap gap-2">
-            {highlights.map((highlight, index) => (
-              <span key={index} className="text-xs bg-rose-50 text-rose-700 px-2 py-1 rounded">
-                {highlight}
-              </span>
-            ))}
+          <div className="flex-1">
+            <div className="flex items-start justify-between mb-2">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+                <p className="text-gray-700 font-medium">{organization}</p>
+              </div>
+              <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{date}</span>
+            </div>
+            <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
+            <div className="flex flex-wrap gap-2">
+              {highlights.map((highlight, index) => (
+                <span key={index} className="text-xs bg-rose-50 text-rose-700 px-2 py-1 rounded">
+                  {highlight}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -46,7 +52,8 @@ export default function Volunteering() {
       organization: 'Northeastern University Alternate Spring Break',
       description: 'Organized, managed, and optimized Habitat for Humanity\'s warehouse operations for 6 hours daily across 5 days. Assisted with supply chain optimization at the Toronto site and learned about historical land acknowledgments of indigenous peoples.',
       date: 'Mar 2025',
-      highlights: ['Operations Management', 'Supply Chain', 'Leadership', 'Community Impact']
+      highlights: ['Operations Management', 'Supply Chain', 'Leadership', 'Community Impact'],
+      image: '/Screenshot 2025-12-02 at 1.01.45 PM.png'
     },
     {
       icon: <Package size={24} />,
@@ -54,7 +61,8 @@ export default function Volunteering() {
       organization: 'Northeastern Civic Engagement',
       description: 'Contributed to a weekend-long service trip to Portland, Maine with other Northeastern students. Organized and shipped thousands of medical supplies in one weekend to countries in dire need. Educated on health care concepts in rural areas.',
       date: 'Nov 2024',
-      highlights: ['Global Health', 'Supply Chain', 'Logistics', 'International Impact']
+      highlights: ['Global Health', 'Supply Chain', 'Logistics', 'International Impact'],
+      image: '/Screenshot 2025-12-02 at 1.02.07 PM.png'
     },
     {
       icon: <Users size={24} />,

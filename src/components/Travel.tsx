@@ -17,6 +17,7 @@ export default function Travel() {
     { name: 'UK', continent: 'Europe', emoji: '🇬🇧', visited: true },
     { name: 'Netherlands', continent: 'Europe', emoji: '🇳🇱', visited: true },
     { name: 'Belgium', continent: 'Europe', emoji: '🇧🇪', visited: true },
+    { name: 'Luxembourg', continent: 'Europe', emoji: '🇱🇺', visited: true },
     { name: 'France', continent: 'Europe', emoji: '🇫🇷', visited: true },
     { name: 'Spain', continent: 'Europe', emoji: '🇪🇸', visited: true },
     { name: 'Germany', continent: 'Europe', emoji: '🇩🇪', visited: true },

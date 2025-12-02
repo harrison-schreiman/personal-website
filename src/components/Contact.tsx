@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 
@@ -96,7 +96,7 @@ export default function Contact() {
 
               <div className="flex items-center space-x-4 text-gray-700">
                 <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center">
-                  <Github size={24} />
+                  <MapPin size={24} />
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
