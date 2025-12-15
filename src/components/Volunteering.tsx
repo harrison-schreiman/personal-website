@@ -53,7 +53,7 @@ export default function Volunteering() {
       description: 'Organized, managed, and optimized Habitat for Humanity\'s warehouse operations for 6 hours daily across 5 days. Assisted with supply chain optimization at the Toronto site and learned about historical land acknowledgments of indigenous peoples.',
       date: 'Mar 2025',
       highlights: ['Operations Management', 'Supply Chain', 'Leadership', 'Community Impact'],
-      image: '/Screenshot 2025-12-02 at 1.01.45 PM.png'
+      image: '/Screenshot%202025-12-02%20at%201.01.45%20PM.png'
     },
     {
       icon: <Package size={24} />,
@@ -62,7 +62,7 @@ export default function Volunteering() {
       description: 'Contributed to a weekend-long service trip to Portland, Maine with other Northeastern students. Organized and shipped thousands of medical supplies in one weekend to countries in dire need. Educated on health care concepts in rural areas.',
       date: 'Nov 2024',
       highlights: ['Global Health', 'Supply Chain', 'Logistics', 'International Impact'],
-      image: '/Screenshot 2025-12-02 at 1.02.07 PM.png'
+      image: '/Screenshot%202025-12-02%20at%201.02.07%20PM.png'
     },
     {
       icon: <Users size={24} />,

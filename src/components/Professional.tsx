@@ -31,11 +31,11 @@ function AccomplishmentCard({ icon, title, subtitle, description, date }: Accomp
 export default function Professional() {
   const accomplishments = [
     {
-      icon: <GraduationCap size={24} />,
-      title: 'Honors Candidate in International Business',
-      subtitle: 'Northeastern University | D\'Amore McKim School of Business',
-      description: 'Pursuing a Bachelor of Science with concentration in Management at Boston\'s premier business school. Dean\'s List honors with 3.76/4.00 GPA.',
-      date: 'Aug 2024 - May 2027'
+      icon: <Briefcase size={24} />,
+      title: 'Business Development Consultant',
+      subtitle: 'Inversiones Torres | Global Brigades Panama',
+      description: 'Collaborated with Venezuelan automotive restoration business in Panama on business formalization and growth strategy. Streamlined operations, guided registration, and developed marketing approaches for vehicle sales.',
+      date: 'Sep 2025 - Present'
     },
     {
       icon: <Users size={24} />,
@@ -45,18 +45,11 @@ export default function Professional() {
       date: 'Aug 2025 - Present'
     },
     {
-      icon: <Briefcase size={24} />,
-      title: 'Fitness Consultant',
-      subtitle: 'Northeastern University | Boston, MA',
-      description: 'Partner with university fitness and wellness teams to enhance member experience and promote health initiatives. Provide personalized guidance on fitness programs, wellness resources, and community engagement opportunities to support student and staff health goals.',
-      date: 'Sep 2024 - Present'
-    },
-    {
-      icon: <Briefcase size={24} />,
-      title: 'Executive Assistant',
-      subtitle: 'Family Property Management | Hacienda Heights, CA',
-      description: 'Oversee portfolio of 6 properties worth $2.5 Million, ensuring profitability while managing risk and tenant relations. Delegate maintenance tasks with a team of 4 employees to upkeep properties at their highest value and market standards.',
-      date: 'Mar 2023 - Present'
+      icon: <Award size={24} />,
+      title: 'Go-to-Market Strategy Project Lead',
+      subtitle: 'Mobilicom | TAMID at Northeastern',
+      description: 'Delivered comprehensive go-to-market strategy for Mobilicom\'s 8" Ground Control Station. Conducted competitive brand analysis, evaluated digital footprint, and developed targeted marketing proposals for military and commercial verticals.',
+      date: 'Jan 2025 - May 2025'
     },
     {
       icon: <Briefcase size={24} />,
@@ -73,18 +66,18 @@ export default function Professional() {
       date: 'Sep 2024 - Present'
     },
     {
-      icon: <Award size={24} />,
-      title: 'Go-to-Market Strategy Project Lead',
-      subtitle: 'Mobilicom | TAMID at Northeastern',
-      description: 'Delivered comprehensive go-to-market strategy for Mobilicom\'s 8" Ground Control Station. Conducted competitive brand analysis, evaluated digital footprint, and developed targeted marketing proposals for military and commercial verticals.',
-      date: 'Jan 2025 - May 2025'
+      icon: <Briefcase size={24} />,
+      title: 'Fitness Consultant',
+      subtitle: 'Northeastern University | Boston, MA',
+      description: 'Partner with university fitness and wellness teams to enhance member experience and promote health initiatives. Provide personalized guidance on fitness programs, wellness resources, and community engagement opportunities to support student and staff health goals.',
+      date: 'Sep 2024 - Present'
     },
     {
-      icon: <Briefcase size={24} />,
-      title: 'Business Development Consultant',
-      subtitle: 'Inversiones Torres | Global Brigades Panama',
-      description: 'Collaborated with Venezuelan automotive restoration business in Panama on business formalization and growth strategy. Streamlined operations, guided registration, and developed marketing approaches for vehicle sales.',
-      date: 'Sep 2025 - Present'
+      icon: <GraduationCap size={24} />,
+      title: 'Honors Candidate in International Business',
+      subtitle: 'Northeastern University | D\'Amore McKim School of Business',
+      description: 'Pursuing a Bachelor of Science with concentration in Management at Boston\'s premier business school. Dean\'s List honors with 3.76/4.00 GPA.',
+      date: 'Aug 2024 - May 2027'
     },
     {
       icon: <Briefcase size={24} />,
@@ -92,6 +85,13 @@ export default function Professional() {
       subtitle: 'Eagle Industrial Group',
       description: 'Created statistical analyses and data visualizations tracking shipping rates, profit margins, and product costs. Collaborated with influencers to expand SafeRack brand identity and researched competitors for product innovation.',
       date: 'Aug 2023 - Dec 2023'
+    },
+    {
+      icon: <Briefcase size={24} />,
+      title: 'Executive Assistant',
+      subtitle: 'Family Property Management | Hacienda Heights, CA',
+      description: 'Oversee portfolio of 6 properties worth $2.5 Million, ensuring profitability while managing risk and tenant relations. Delegate maintenance tasks with a team of 4 employees to upkeep properties at their highest value and market standards.',
+      date: 'Mar 2023 - Present'
     }
   ];
 
